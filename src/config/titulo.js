@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Entorno de trabajo y arquitectura en WordPress.'
