@@ -379,7 +379,7 @@ export default {
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el servidor local como entorno de pruebas, aprendizaje y experimentación.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el uso de localhost en procesos formativos y de desarrollo.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el uso de <i>localhost</i> en procesos formativos y de desarrollo.',
         },
         {
           id: 9,

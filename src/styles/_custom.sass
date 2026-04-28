@@ -52,12 +52,21 @@ figcaption
     border-left-color: $color-acento-botones;
 .bloque-texto-g.color-secundario
   background-color: #E2EFFC
+.bloque-texto-g.color-acento-contenido
+    background-color: #A2AEEA
 .cajon.color-secundario 
     background-color: #D0D6F5
 table thead
     background-color: $color-secundario
 table td
     text-align: left;
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #A2AEEA !important
+    color: $color-sistema-texto
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris,
+.linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+    background-color: $color-primario !important
+    color: $white 
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -73,6 +82,8 @@ table td
     background-color: #D0D6F5
   &-2
     background-color: #E2EFFC
+  &-3
+    background-color: #F5F6FD
 
 .br
   &-1
@@ -81,6 +92,8 @@ table td
 .mg-cus
   &-1
     margin-top: 35px !important
+  &-2
+    margin-top: 30px !important
 .pd-cus
   &-1
     padding: 3rem
@@ -89,7 +102,9 @@ table td
   &-1
     height: 750px !important
 
-      
+.w-cus
+  &-1
+    width: 20% !important       
 
 /**************************************************************/
 /*Media Queries*/  
