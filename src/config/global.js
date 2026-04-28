@@ -1,9 +1,9 @@
 export default {
   global: {
-    Name: 'Entorno de trabajo y arquitectura en WordPress.',
+    Name: 'Entorno de trabajo y arquitectura en WordPress',
     Description:
       'El componente Entorno de trabajo y arquitectura en WordPress desarrolla competencias técnicas y analíticas para planificar, estructurar, instalar y gestionar sitios web en el entorno digital, con enfoque en las necesidades del usuario final. Promueve el pensamiento sistémico, la resolución de problemas y la construcción de la arquitectura de la información y la diagramación visual, alineadas con los requerimientos del proyecto y las normativas de accesibilidad web.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -11,8 +11,12 @@ export default {
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -66,12 +70,12 @@ export default {
           },
           {
             numero: '2.2',
-            titulo: 'Instalación manual0',
+            titulo: 'Instalación manual',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Instalación en servidor local1',
+            titulo: 'Instalación en servidor local',
             hash: 't_2_3',
           },
           {
@@ -84,7 +88,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Interfaz, Diagramación y Normativas de Acceso',
+        titulo: 'Interfaz, diagramación y normativas de acceso',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -208,24 +212,24 @@ export default {
         'conjunto de normativas, principios y técnicas de diseño gráfico y de codificación que garantizan que un sitio web pueda ser utilizado, navegado y comprendido por cualquier persona, incluyendo aquellas con discapacidades visuales, auditivas o motoras.',
     },
     {
-      termino: 'Back end',
+      termino: '<i>Back end</i>',
       significado:
-        'área privada o panel de administración de un sistema informático. en wordpress, es el escritorio de trabajo al que solo ingresan los usuarios registrados con permisos, utilizado para gestionar la base de datos, configurar el sistema y crear contenidos.',
+        'área privada o panel de administración de un sistema informático. En WordPress, es el escritorio de trabajo al que solo ingresan los usuarios registrados con permisos, utilizado para gestionar la base de datos, configurar el sistema y crear contenidos.',
     },
     {
       termino: 'Base de datos',
       significado:
-        'sistema estructurado que recopila y almacena la información digital. en el contexto de este curso, wordpress utiliza sistemas relacionales como mysql para guardar cada texto, configuración y credencial de usuario ingresada en la plataforma.',
+        'sistema estructurado que recopila y almacena la información digital. En el contexto de este curso, WordPress utiliza sistemas relacionales como mysql para guardar cada texto, configuración y credencial de usuario ingresada en la plataforma.',
     },
     {
       termino: 'Categoría',
       significado:
-        'taxonomía principal y jerárquica de wordpress utilizada para clasificar las entradas dinámicas en grandes bloques temáticos, facilitando la estructura del sitio y la navegación lógica del usuario.',
+        'taxonomía principal y jerárquica de WordPress utilizada para clasificar las entradas dinámicas en grandes bloques temáticos, facilitando la estructura del sitio y la navegación lógica del usuario.',
     },
     {
-      termino: 'Cms (sistema de gestión de contenidos):',
+      termino: 'CMS (sistema de gestión de contenidos)',
       significado:
-        'software diseñado para permitir a usuarios técnicos y no técnicos crear, editar, organizar y publicar información digital en una página web sin necesidad de escribir código de programación manual desde cero',
+        '<i>software</i> diseñado para permitir a usuarios técnicos y no técnicos crear, editar, organizar y publicar información digital en una página web sin necesidad de escribir código de programación manual desde cero',
     },
     {
       termino: 'Dominio',
@@ -233,22 +237,22 @@ export default {
         'nombre único, alfanumérico e irrepetible que identifica a un sitio web en internet (ejemplo: sena.edu.co), funcionando como la dirección equivalente a la de un domicilio físico en la red mundial.',
     },
     {
-      termino: 'Entrada (post)',
+      termino: 'Entrada (<i>post</i>)',
       significado:
-        'unidad de información dinámica diseñada para su consumo cronológico. se agrupa en categorías, admite el uso de etiquetas y se utiliza habitualmente para publicar noticias, artículos de opinión o actualizaciones periódicas.',
+        'unidad de información dinámica diseñada para su consumo cronológico. Se agrupa en categorías, admite el uso de etiquetas y se utiliza habitualmente para publicar noticias, artículos de opinión o actualizaciones periódicas.',
     },
     {
-      termino: 'Etiqueta (tag)',
+      termino: 'Etiqueta (<i>tag</i>)',
       significado:
-        'taxonomía secundaria y no jerárquica que describe detalles específicos o palabras clave dentro de un contenido. funciona como un mecanismo transversal de recuperación de información para vincular artículos de diferentes categorías.',
+        'taxonomía secundaria y no jerárquica que describe detalles específicos o palabras clave dentro de un contenido. Funciona como un mecanismo transversal de recuperación de información para vincular artículos de diferentes categorías.',
     },
     {
-      termino: 'Front end',
+      termino: '<i>Front end</i>',
       significado:
         'interfaz pública de un sitio web, conformada por los elementos visuales e interactivos (textos, imágenes, menús y formularios) con los que el usuario final interactúa directamente desde su navegador.',
     },
     {
-      termino: 'Hosting (alojamiento web)',
+      termino: '<i>Hosting</i> (alojamiento web)',
       significado:
         'servicio tecnológico provisto por una empresa que alquila espacio en servidores físicos conectados ininterrumpidamente a internet, necesario para almacenar los archivos y bases de datos de un sitio web público.',
     },
@@ -260,12 +264,12 @@ export default {
     {
       termino: 'Página estática',
       significado:
-        'formato de publicación en wordpress utilizado para albergar información atemporal e institucional (como el portafolio de servicios o contacto). no utiliza categorías ni fechas visibles, y se estructura jerárquicamente (páginas principales y subpáginas).',
+        'formato de publicación en WordPress utilizado para albergar información atemporal e institucional (como el portafolio de servicios o contacto). no utiliza categorías ni fechas visibles, y se estructura jerárquicamente (páginas principales y subpáginas).',
     },
     {
-      termino: 'Plugin',
+      termino: '<i>Plugin</i>',
       significado:
-        'módulo de software externo o extensión de código que se instala y se integra en el núcleo de wordpress para añadir funcionalidades específicas que la plataforma no incluye de forma nativa, como tiendas virtuales, foros o sistemas de seguridad avanzados.',
+        'módulo de <i>software</i> externo o extensión de código que se instala y se integra en el núcleo de WordPress para añadir funcionalidades específicas que la plataforma no incluye de forma nativa, como tiendas virtuales, foros o sistemas de seguridad avanzados.',
     },
     {
       termino: 'Responsividad (diseño responsivo)',
@@ -273,19 +277,19 @@ export default {
         'principio de diseño y diagramación web que garantiza que la interfaz visual de una página se adapte, reordene y escale fluidamente de acuerdo con el tamaño y la resolución de la pantalla del dispositivo desde el cual se visualiza (computadoras, tabletas o teléfonos móviles).',
     },
     {
-      termino: 'Servidor local (localhost)',
+      termino: 'Servidor local (<i>localhost</i>)',
       significado:
-        'entorno de desarrollo informático instalado en la propia computadora del usuario, que emula el comportamiento de un servidor web remoto. permite realizar instalaciones, pruebas y diseños web sin necesidad de conexión a internet o pagos de hosting.',
+        'entorno de desarrollo informático instalado en la propia computadora del usuario, que emula el comportamiento de un servidor web remoto. Permite realizar instalaciones, pruebas y diseños web sin necesidad de conexión a internet o pagos de hosting.',
     },
     {
       termino: 'Taxonomía',
       significado:
-        'ciencia y práctica de la clasificación. en diseño web, se refiere al método utilizado para agrupar, ordenar y estructurar lógicamente los contenidos de un sitio web para facilitar su comprensión cognitiva.',
+        'ciencia y práctica de la clasificación. En diseño web, se refiere al método utilizado para agrupar, ordenar y estructurar lógicamente los contenidos de un sitio web para facilitar su comprensión cognitiva.',
     },
     {
-      termino: 'Tema (theme)',
+      termino: 'Tema (<i>theme</i>)',
       significado:
-        'paquete de archivos de diseño, hojas de estilo (css) y plantillas que determinan de manera integral la apariencia visual, la disposición geométrica y la paleta de colores del front end en wordpress, sin alterar el contenido almacenado.',
+        'paquete de archivos de diseño, hojas de estilo (css) y plantillas que determinan de manera integral la apariencia visual, la disposición geométrica y la paleta de colores del <i>front end</i> en WordPress, sin alterar el contenido almacenado.',
     },
     {
       termino: 'Url amigable',
@@ -293,15 +297,40 @@ export default {
         'dirección web estructurada con palabras claras y descriptivas (generalmente el título del artículo) en lugar de códigos numéricos complejos, lo cual mejora sustancialmente la accesibilidad para el usuario y el posicionamiento en buscadores.',
     },
     {
-      termino: 'Widget',
+      termino: '<i>Widget</i>',
       significado:
         'bloque modular de contenido o funcionalidad específica que se puede añadir, organizar y desplazar visualmente dentro de áreas predefinidas del diseño web, como en las barras laterales, el pie de página o el propio escritorio de administración.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Consorcio World Wide Web (W3C). (2023). Pautas de Accesibilidad para el Contenido Web (WCAG) 2.2. W3C Recommendation.',
+    },
+
+    {
+      referencia:
+        'Fundación WordPress. (2024). Documentación oficial, manual de administración y convenciones de codificación. Codex y Developer Handbook. Recuperado de la biblioteca de recursos técnicos de WordPress.org.',
+    },
+
+    {
+      referencia:
+        'García, L. M. (2022). Diseño de interfaces web y experiencia de usuario en entornos formativos digitales. Editorial Síntesis.',
+    },
+
+    {
+      referencia:
+        "Morville, P., Rosenfeld, L., & Arango, J. (2021). Arquitectura de la información para la World Wide Web y ecosistemas digitales (5.ª ed.). O'Reilly Media. (Adaptación al español para contextos académicos de gestión de información).",
+    },
+
+    {
+      referencia:
+        'Nielsen Norman Group. (2023). Directrices de usabilidad para menús de navegación y arquitectura de sitios web dinámicos. Informes de experiencia de usuario.',
+    },
+
+    {
+      referencia:
+        'Williams, B., Damstra, D., & Stern, H. (2021). Desarrollo profesional con WordPress: Diseño, arquitectura y despliegue de plataformas (4.ª ed.). John Wiley & Sons.',
     },
   ],
   creditos: [
@@ -309,12 +338,12 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Claudia Johanna Gómez Pérez',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -324,9 +353,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carlos Andres Bonza Reyes',
+          cargo: 'Instructor virtual',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -334,18 +368,18 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñadora de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Lizeth Karina Manchego Suarez',
+          cargo: 'Desarrolladora <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -354,13 +388,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Erika Daniela Manrique Rueda',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: '--',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

@@ -2,18 +2,18 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 8%
-    right: 50%
+    top: 68%
+    left: -10%
   &-2
     animation: float1 2.0s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    right: 75%
+    top: 25%
+    left: -10%
   &-3
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 72%
-    right: 5%
+    top: 30%
+    right: 25%
 
 @keyframes float1
   0%
@@ -34,17 +34,19 @@
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
   color: $white !important  
 
-
+.boton *, .boton--sm *
+  color: $white !important
 .banner-interno__titulo h1, .banner-interno__titulo h2, 
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $white !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
+  color: $white !important
 figcaption 
     font-weight: normal !important
 
-    background-color: #D2C3DD !important
+.titulo-principal.color-acento-contenido .titulo-principal__numero
+  background-color: $color-primario
 
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -58,7 +60,7 @@ figcaption
   margin-inline: -3.3rem
 .bg-color
   &-1
-    color: $color-primario !important
+    background-color: #D0D6F5
 
 .br
   &-1
@@ -87,6 +89,10 @@ figcaption
 @media screen and (max-width: $bp-max-md)
   .mb-cus
     margin-bottom: 2em  !important  
+  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+    width: 90% !important
+  .bloque-texto-g 
+        padding-top: 50px !important;
   
   
   

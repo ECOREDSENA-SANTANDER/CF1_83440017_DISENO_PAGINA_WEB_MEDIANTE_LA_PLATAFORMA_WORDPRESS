@@ -89,13 +89,13 @@ export default {
       ],
     },
     cuestionario: {
-      tema: 'Nombre del CF',
+      tema: 'Entorno de trabajo y arquitectura en WordPress',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar la comprensión de los fundamentos de WordPress, los entornos de instalación, la interfaz de administración, la arquitectura de la información y los criterios de usabilidad para la diagramación del sitio web.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
@@ -247,7 +247,7 @@ export default {
           id: 5,
           texto:
             'Si un proyecto corporativo requiere instalar plugins externos, modificar el código y escalar sin restricciones del proveedor, ¿qué alternativa resulta más pertinente?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -280,7 +280,7 @@ export default {
           id: 6,
           texto:
             '¿Cuál es una ventaja principal de la instalación automática de WordPress en servicios de hosting?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -316,7 +316,7 @@ export default {
           id: 7,
           texto:
             'En una instalación manual de WordPress, ¿qué archivo se modifica para establecer la comunicación con la base de datos?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -349,7 +349,7 @@ export default {
           id: 8,
           texto:
             '¿Cuál es la finalidad de instalar WordPress en un servidor local en un contexto de aprendizaje y pruebas?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -385,7 +385,7 @@ export default {
           id: 9,
           texto:
             'En una instalación manual de WordPress, ¿para qué se utilizan protocolos como FTP o SFTP en el proceso de despliegue hacia un servidor en internet?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -420,7 +420,7 @@ export default {
         {
           id: 10,
           texto: 'En la arquitectura de WordPress, el front end corresponde a:',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -455,7 +455,7 @@ export default {
         {
           id: 11,
           texto: '¿Qué describe mejor al back end en WordPress?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -491,7 +491,7 @@ export default {
         {
           id: 12,
           texto: '¿Cuál es la función del Escritorio principal o dashboard?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -528,7 +528,7 @@ export default {
           id: 13,
           texto:
             '¿Qué ventaja ofrece la barra de herramientas superior para el administrador logueado?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -565,7 +565,7 @@ export default {
           id: 14,
           texto:
             '¿Cuál de las siguientes opciones pertenece al bloque de gestión administrativa del menú lateral de WordPress?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -598,7 +598,7 @@ export default {
           id: 15,
           texto:
             '¿Por qué es importante asignar roles y capacidades diferenciadas a los usuarios del sitio?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -635,7 +635,7 @@ export default {
           id: 16,
           texto:
             '¿Qué rol predeterminado resulta más adecuado para un aprendiz o autor invitado que puede redactar entradas, pero no publicarlas?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -668,7 +668,7 @@ export default {
           id: 17,
           texto:
             '¿Qué ajuste inicial favorece directamente la accesibilidad y el posicionamiento al generar URLs legibles por humanos y buscadores?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -702,7 +702,7 @@ export default {
           id: 18,
           texto:
             '¿Qué diferencia correctamente a las categorías frente a las etiquetas en WordPress?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -739,7 +739,7 @@ export default {
           id: 19,
           texto:
             '¿Qué afirmación distingue correctamente a las páginas estáticas de las entradas dinámicas?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -776,7 +776,7 @@ export default {
           id: 20,
           texto:
             'Según los criterios de usabilidad expuestos en el componente, ¿qué práctica es más adecuada al diseñar el menú principal de navegación?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -810,7 +810,7 @@ export default {
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las normas de acceso y usabilidad aplicadas a los menús.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado: 'Ha superado la actividad.',
       mensaje_final_reprobado:
         'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
