@@ -31,7 +31,8 @@
     width: 33%;
     
 
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6,
+.barra-avance__boton--regresar span
   color: $white !important  
 
 .boton *, .boton--sm *
@@ -47,7 +48,16 @@ figcaption
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero
   background-color: $color-primario
-
+.titulo-segundo.color-acento-contenido:after
+    border-left-color: $color-acento-botones;
+.bloque-texto-g.color-secundario
+  background-color: #E2EFFC
+.cajon.color-secundario 
+    background-color: #D0D6F5
+table thead
+    background-color: $color-secundario
+table td
+    text-align: left;
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -61,14 +71,19 @@ figcaption
 .bg-color
   &-1
     background-color: #D0D6F5
+  &-2
+    background-color: #E2EFFC
 
 .br
   &-1
     border-radius: 10px !important
 
-.ml-cus
+.mg-cus
   &-1
-    margin-left: 30px !important
+    margin-top: 35px !important
+.pd-cus
+  &-1
+    padding: 3rem
       
 .hcard
   &-1
@@ -84,6 +99,9 @@ figcaption
 @media screen and (max-width: $bp-min-xxl)
   .mb-cus
     margin-bottom: 2em  !important 
+  .mg-cus
+    &-1
+      margin-top: 0px !important
 
 //// TABLET 992--------------------------------------
 @media screen and (max-width: $bp-max-md)
@@ -94,13 +112,22 @@ figcaption
   .bloque-texto-g 
         padding-top: 50px !important;
   
-  
+  .mg-cus
+    &-1
+      margin-top: 10px !important
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
-
+  .pd-cus
+    &-1
+      padding: 1rem
+  .bloque-texto-g
+    padding-top: 1rem !important;
+  .mg-cus
+    &-1
+      margin-top: 10px !important
   
 
 //// MOBILE 576--------------------------------------
