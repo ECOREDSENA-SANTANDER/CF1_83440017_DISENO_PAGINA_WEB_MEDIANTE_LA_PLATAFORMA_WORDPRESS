@@ -105,6 +105,12 @@ table td
     border: 0px !important
     background-color: $color-acento-botones !important
     color: $white !important
+.tarjeta--boton
+    background-color: #F5A3BC
+.tarjeta--boton.color-primario:active, .tarjeta--boton.color-primario:focus, .tarjeta--boton.color-primario:hover
+    background-color: #C5DEF8
+.tarjeta--boton.color-primario:hover *
+    color: $color-sistema-texto
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -128,6 +134,8 @@ table td
     background-color: #C5DEF8
   &-6
     background-color: #6FADED
+  &-7
+    background-color: $color-primario
 
 .br
   &-1
@@ -140,6 +148,12 @@ table td
     margin-top: 30px !important
   &-3
     margin-top: 3rem !important
+  &-4
+    margin-top: 25px !important
+  &-5
+    margin-top: 60px !important
+  &-6
+    margin-top: 20px !important
   
 .pd-cus
   &-1
@@ -147,7 +161,7 @@ table td
       
 .hcard
   &-1
-    height: 750px !important
+    height: 470px !important
 
 .w-cus
   &-1
@@ -156,6 +170,10 @@ table td
     width: 15% !important   
   &-3
     width: 32px !important  
+  &-4
+    width: 10% !important
+  &-5
+    width: fit-content !important
 .titulo-icono
   width: fit-content
   position: relative;
@@ -233,6 +251,7 @@ table td
     border-bottom-right-radius: 20px
   .tarjeta--container > .tarjeta:last-child
     border-radius: 20px
+ 
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
@@ -247,6 +266,8 @@ table td
     &-1
       margin-top: 10px !important
     &-3
+      margin-top: 0.3rem !important
+    &-5
       margin-top: 0.3rem !important
   
 
