@@ -67,6 +67,44 @@ table td
 .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
     background-color: $color-primario !important
     color: $white 
+.tarjeta-audio.color-primario .tarjeta-audio__texto
+    color: $color-sistema-texto
+    font-style: normal !important
+.audio.color-primario .audio__btn, .tarjeta-audio.color-primario .audio__btn, .tarjeta-dialogo.color-primario .audio__btn
+    background-color: $color-acento-botones !important
+.tabs-c__tab
+    background-color: #091551
+    color: $white
+    border-bottom: 4px solid #091551
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: bold
+  background-color: #fff !important
+  color: $color-sistema-texto
+.tabs-c__content-item
+  position: relative;
+  top: -15px;
+  z-index: 0;
+.tabs-c__tab--active:before
+    z-index: 99;
+.tarjeta.color-acento-contenido
+  background-color: #B0A3C8
+.tarjeta.color-primario
+  background-color: #C5DEF8
+.tarjeta.color-acento-botones
+  background-color: #F5A3BC
+.tarjeta.color-acento-contenido *,
+.tarjeta.color-acento-botones *,
+.tarjeta.color-primario *
+  color: $color-sistema-texto
+.slyder-f__btn i
+  color: $color-acento-botones
+.acordion
+  &__activo
+    background-color: #C5DEF8 !important
+  &__accion__btn--b 
+    border: 0px !important
+    background-color: $color-acento-botones !important
+    color: $white !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -84,6 +122,12 @@ table td
     background-color: #E2EFFC
   &-3
     background-color: #F5F6FD
+  &-4
+    background-color: #D7D1E3
+  &-5
+    background-color: #C5DEF8
+  &-6
+    background-color: #6FADED
 
 .br
   &-1
@@ -94,6 +138,9 @@ table td
     margin-top: 35px !important
   &-2
     margin-top: 30px !important
+  &-3
+    margin-top: 3rem !important
+  
 .pd-cus
   &-1
     padding: 3rem
@@ -104,8 +151,59 @@ table td
 
 .w-cus
   &-1
-    width: 20% !important       
+    width: 20% !important  
+  &-2
+    width: 15% !important   
+  &-3
+    width: 32px !important  
+.titulo-icono
+  width: fit-content
+  position: relative;
+  left: 12px;
+  background-color: $color-primario
+  border-radius: 30px
+ 
+  &-text
+    margin-right: 10px
+    margin-left: 45px;
+    color: $white
+    @media screen and (max-width: 767px)
+      margin-left: 0px;
+      
+  &-img
+    padding: 0px
+    position: absolute
+    
 
+    @media screen and (max-width: 767px)
+        display: none
+
+    img
+      position: relative
+      max-width: 65px
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 0.8rem 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.3rem ))
+    background-color: #F5A3BC
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -130,6 +228,11 @@ table td
   .mg-cus
     &-1
       margin-top: 10px !important
+  .tarjeta--container > .tarjeta:nth-child(2)
+    border-top-right-radius: 20px
+    border-bottom-right-radius: 20px
+  .tarjeta--container > .tarjeta:last-child
+    border-radius: 20px
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
@@ -143,9 +246,14 @@ table td
   .mg-cus
     &-1
       margin-top: 10px !important
+    &-3
+      margin-top: 0.3rem !important
   
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
+  .tarjeta--container > .tarjeta:first-child,
+  .tarjeta--container > .tarjeta
+    border-radius: 20px

@@ -98,7 +98,7 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: 'El escritorio principal (Dashboard)',
+            titulo: 'El escritorio principal (<i>Dashboard</i>)',
             hash: 't_3_2',
           },
           {
