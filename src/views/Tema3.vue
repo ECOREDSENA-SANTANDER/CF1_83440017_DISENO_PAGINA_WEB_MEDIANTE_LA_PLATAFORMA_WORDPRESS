@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 3
-        h1 Interfaz, Diagramación y Normativas de Acceso
+        h1 Interfaz, diagramación y normativas de acceso
       
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.pd-cus-1.mb-5(data-aos='fade-right')
         .bloque-texto-g__img.d-none.d-lg-block(
@@ -54,7 +54,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-primario.mb-4.p-4(
               texto="Entorno de trabajo en WordPress"
-              :audio="require('@/assets/actividad/audio/end-game-fail.mp3')"
+              :audio="require('@/assets/curso/temas/t3/podcast.mp3')"
           )
 
 
@@ -65,7 +65,7 @@
       Separador
       #t_3_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
         h2 3.1 #[i Front End] y #[i Back End]
-      
+      p.mb-5 En la arquitectura de sistemas informáticos y diseño web, se utilizan los términos #[i Front End] y #[i Back End] para delimitar la frontera entre lo que consume el usuario final y lo que controla el administrador.
       TabsC.color-acento-botones.mb-5(data-aos='fade-right')
         .py-3.py-md-4(titulo="<i>Front End</i> (la fachada o interfaz pública)")
           .row.justify-content-center.mb-0
@@ -88,11 +88,11 @@
           img(src='@/assets/curso/temas/t3/9.png', alt='')
         .col-sm-12.col-lg-8.bg-color-2.p-4.mx-0
             img.w-cus-2.mb-3(src='@/assets/curso/temas/t3/10.svg', alt='')
-            p.mb-3 La relación entre #[i Front End] y #[i Back End] es dinámica y complementaria. Cada cambio realizado en el #[i Back End], ya sea en la estructura de menús, la incorporación de plugins o la actualización de contenido, se refleja inmediatamente en el #[i Front End], modificando la experiencia del usuario. Comprender esta interdependencia permite al aprendiz anticipar cómo cada decisión técnica impacta en la interfaz pública.
+            p.mb-3 La relación entre #[i Front End] y #[i Back End] es dinámica y complementaria. Cada cambio realizado en el #[i Back End], ya sea en la estructura de menús, la incorporación de #[i plugins] o la actualización de contenido, se refleja inmediatamente en el #[i Front End], modificando la experiencia del usuario. Comprender esta interdependencia permite al aprendiz anticipar cómo cada decisión técnica impacta en la interfaz pública.
             p.mb-0 Asimismo, dominar ambos entornos es fundamental para optimizar la accesibilidad y la usabilidad. Por ejemplo, configurar correctamente los roles de usuario y los permisos en el #[i Back End] asegura que solo personal autorizado pueda modificar contenido sensible, mientras que en el #[i Front End] se mantiene la coherencia visual y la navegación clara para el público general.
 
 
-      p.mb-5(data-aos='fade-right') El aprendizaje integral de #[i Front End] y #[i Back End] también fomenta habilidades analíticas y de resolución de problemas. Cuando un sitio presenta errores de visualización o mal funcionamiento, el aprendiz puede identificar si la causa proviene de la estructura del contenido, la configuración de plugins o la interacción entre los elementos del #[i Back End] y del #[i Front End], desarrollando competencias críticas para la gestión profesional de plataformas web.
+      p.mb-5(data-aos='fade-right') El aprendizaje integral de #[i Front End] y #[i Back End] también fomenta habilidades analíticas y de resolución de problemas. Cuando un sitio presenta errores de visualización o mal funcionamiento, el aprendiz puede identificar si la causa proviene de la estructura del contenido, la configuración de #[i plugins] o la interacción entre los elementos del #[i Back End] y del #[i Front End], desarrollando competencias críticas para la gestión profesional de plataformas web.
 
       
 
@@ -121,7 +121,7 @@
             .col-sm-12.col-lg-1.d-none.d-lg-block
               img(src='@/assets/curso/temas/t3/11.svg', alt='')
             .col-sm-12.col-lg-11
-                p.mb-0 Al ingresar las credenciales correctas en la ruta de acceso al #[i Back End] (generalmente misitio.com/wp-admin), el usuario aterriza inmediatamente en el escritorio principal, también conocido como Dashboard. Este espacio funciona como un panel de control gerencial que ofrece una vista panorámica del estado de salud y la actividad reciente del sitio web.
+                p.mb-0 Al ingresar las credenciales correctas en la ruta de acceso al #[i Back End] (generalmente misitio.com/wp-admin), el usuario aterriza inmediatamente en el escritorio principal, también conocido como #[i Dashboard]. Este espacio funciona como un panel de control gerencial que ofrece una vista panorámica del estado de salud y la actividad reciente del sitio web.
 
       p.mb-5(data-aos='fade-right') El Escritorio está compuesto por bloques modulares denominados #[i widgets], los cuales pueden ser reorganizados, minimizados o desactivados según las preferencias del administrador. Entre los módulos informativos más relevantes se encuentran:
 
@@ -140,7 +140,7 @@
               figure
                 img(src='@/assets/curso/temas/t3/13.svg')          
           h2.text-center Actividad
-          p.mb-0 Muestra las últimas publicaciones realizadas y los comentarios recientes, permitiendo moderarlos rápidamente.
+          p.mb-0 Presenta las últimas publicaciones realizadas y los comentarios recientes, permitiendo moderarlos rápidamente.
         
         .col-sm-12.col-md-6.col-lg-4.tarjeta.color-acento-botones.p-5.mb-cus
           .row.justify-content-center.mb-4
@@ -225,7 +225,7 @@
             .crd_hover_txt--body
               .d-flex.mb-4.align-items-center
                 img.w-cus-3(src="@/assets/curso/temas/t3/23.svg", alt="")
-                h4.mb-0.mx-3 Gestión de Contenidos
+                h4.mb-0.mx-3 Gestión de contenidos
               p.mb-0 Agrupa los menús de "entradas" (para artículos dinámicos), "medios" (la biblioteca de imágenes, audios y documentos), "páginas" (para contenidos estáticos) y "comentarios" (para la moderación de la interacción con los usuarios).
         .col-sm-12.col-lg-4.mb-cus
           .crd_hover_txt
@@ -234,8 +234,8 @@
             .crd_hover_txt--body
               .d-flex.mb-4.align-items-center
                 img.w-cus-3(src="@/assets/curso/temas/t3/23.svg", alt="")
-                h4.mb-0.mx-3 Gestión de Diseño y Funcionalidad
-              p.mb-0 Incluye el menú "apariencia" (donde se gestionan los temas, menús y configuración visual, clave para el resultado de aprendizaje) y el menú "Plugins" (para instalar módulos que expanden las capacidades técnicas del sitio).
+                h4.mb-0.mx-3 Gestión de diseño y funcionalidad
+              p.mb-0 Incluye el menú "apariencia" (donde se gestionan los temas, menús y configuración visual, clave para el resultado de aprendizaje) y el menú "#[i Plugins]" (para instalar módulos que expanden las capacidades técnicas del sitio).
         .col-sm-12.col-lg-4.mb-cus
           .crd_hover_txt
             .crd_hover_txt--img
@@ -243,7 +243,7 @@
             .crd_hover_txt--body
               .d-flex.mb-4.align-items-center
                 img.w-cus-3(src="@/assets/curso/temas/t3/23.svg", alt="")
-                h4.mb-0.mx-3 Gestión Administrativa
+                h4.mb-0.mx-3 Gestión administrativa
               p.mb-0 Abarca los menús de “usuarios”, “herramientas” (para importación/exportación y salud del sitio) y “ajustes” (las reglas de comportamiento general del sistema).
 
 

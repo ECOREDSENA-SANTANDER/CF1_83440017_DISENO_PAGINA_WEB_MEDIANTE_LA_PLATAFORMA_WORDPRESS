@@ -246,7 +246,7 @@ export default {
         {
           id: 5,
           texto:
-            'Si un proyecto corporativo requiere instalar plugins externos, modificar el código y escalar sin restricciones del proveedor, ¿qué alternativa resulta más pertinente?',
+            'Si un proyecto corporativo requiere instalar <i>plugins</i> externos, modificar el código y escalar sin restricciones del proveedor, ¿qué alternativa resulta más pertinente?',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -279,7 +279,7 @@ export default {
         {
           id: 6,
           texto:
-            '¿Cuál es una ventaja principal de la instalación automática de WordPress en servicios de hosting?',
+            '¿Cuál es una ventaja principal de la instalación automática de WordPress en servicios de <i>hosting</i>?',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
@@ -297,7 +297,8 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Impide por completo el uso posterior de temas y plugins.',
+              texto:
+                'Impide por completo el uso posterior de temas y <i>plugins</i>.',
               esCorrecta: false,
             },
             {
@@ -390,7 +391,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Para moderar comentarios desde el front end.',
+              texto: 'Para moderar comentarios desde el <i>front end</i>.',
               esCorrecta: false,
             },
             {
@@ -419,7 +420,8 @@ export default {
         },
         {
           id: 10,
-          texto: 'En la arquitectura de WordPress, el front end corresponde a:',
+          texto:
+            'En la arquitectura de WordPress, el <i>front end</i> corresponde a:',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
@@ -432,7 +434,7 @@ export default {
             {
               id: 'b',
               texto:
-                'El panel privado desde el cual se configuran usuarios y plugins.',
+                'El panel privado desde el cual se configuran usuarios y <i>plugins</i>.',
               esCorrecta: false,
             },
             {
@@ -448,13 +450,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el front end como espacio visible e interactivo para el visitante.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el <i>front end</i> como espacio visible e interactivo para el visitante.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la diferencia funcional entre front end y back end.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la diferencia funcional entre <i>front end</i> y <i>back end</i>.',
         },
         {
           id: 11,
-          texto: '¿Qué describe mejor al back end en WordPress?',
+          texto: '¿Qué describe mejor al <i>back end</i> en WordPress?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -484,13 +486,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el back end como centro de gestión privada del sitio web.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el <i>back end</i> como centro de gestión privada del sitio web.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el entorno de trabajo administrativo de WordPress.',
         },
         {
           id: 12,
-          texto: '¿Cuál es la función del Escritorio principal o dashboard?',
+          texto:
+            '¿Cuál es la función del Escritorio principal o <i>dashboard</i>?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -515,14 +518,14 @@ export default {
             {
               id: 'd',
               texto:
-                'Mostrar una vista panorámica del estado del sitio mediante widgets informativos.',
+                'Mostrar una vista panorámica del estado del sitio mediante <i>widgets</i> informativos.',
               esCorrecta: true,
             },
           ],
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el dashboard como panel de control gerencial del sitio web.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el escritorio principal y sus widgets de información.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el escritorio principal y sus <i>widgets</i> de información.',
         },
         {
           id: 13,
@@ -534,13 +537,13 @@ export default {
             {
               id: 'a',
               texto:
-                'Funciona como un atajo hacia acciones frecuentes tanto en el back end como en el front end.',
+                'Funciona como un atajo hacia acciones frecuentes tanto en el <i>back end</i> como en el <i>front end</i>.',
               esCorrecta: true,
             },
             {
               id: 'b',
               texto:
-                'Bloquea el acceso al front end mientras se edita el sitio.',
+                'Bloquea el acceso al <i>front end</i> mientras se edita el sitio.',
               esCorrecta: false,
             },
             {

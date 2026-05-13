@@ -65,7 +65,7 @@ export default {
           {
             numero: '2.1',
             titulo:
-              'Instalación automática en servicios de alojamiento web (hosting)',
+              'Instalación automática en servicios de alojamiento web (<i>hosting</i>)',
             hash: 't_2_1',
           },
           {
@@ -93,7 +93,7 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Front End y Back End',
+            titulo: '<i>Front End</i> y <i>Back End</i>',
             hash: 't_3_1',
           },
           {
@@ -169,11 +169,6 @@ export default {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
-      },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
       },
       {
         icono: 'fas fa-book',
@@ -279,7 +274,7 @@ export default {
     {
       termino: 'Servidor local (<i>localhost</i>)',
       significado:
-        'entorno de desarrollo informático instalado en la propia computadora del usuario, que emula el comportamiento de un servidor web remoto. Permite realizar instalaciones, pruebas y diseños web sin necesidad de conexión a internet o pagos de hosting.',
+        'entorno de desarrollo informático instalado en la propia computadora del usuario, que emula el comportamiento de un servidor web remoto. Permite realizar instalaciones, pruebas y diseños web sin necesidad de conexión a internet o pagos de <i>hosting</i>.',
     },
     {
       termino: 'Taxonomía',
@@ -388,12 +383,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Erika Daniela Manrique Rueda',
+          nombre: 'Yineth Ibette González Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '--',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

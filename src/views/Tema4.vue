@@ -56,7 +56,26 @@
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-4
           .bg-color-2.p-4.mb-cus
-            p.mb-0.mg-cus-4 Ejemplo en contexto de formación profesional: un aprendiz desarrolla el sitio web para un centro de emprendimiento. En lugar de crear categorías desordenadas por cada idea que surge, organiza el contenido de manera estructurada. Define categorías principales como:
+            p.mb-3.mg-cus-4 Ejemplo en contexto de formación profesional: un aprendiz desarrolla el sitio web para un centro de emprendimiento. En lugar de crear categorías desordenadas por cada idea que surge, organiza el contenido de manera estructurada. Define categorías principales como:
+            .row.justify-content-center.align-items-center.mb-0
+              .col-sm-12.col-lg-6
+                ul.lista-ul--color.mb-0
+                  li.d-flex
+                    i.fas.fa-folder-open.icon-list
+                    p.mb-0 Ideación.
+                  li.d-flex.mb-0
+                    i.fas.fa-folder-open.icon-list
+                    p.mb-0 Financiación.
+              .col-sm-12.col-lg-6
+                ul.lista-ul--color.mb-0
+                  li.d-flex
+                    i.fas.fa-folder-open.icon-list
+                    p.mb-0 Legalidad.
+
+                  li.d-flex.mb-0
+                    i.fas.fa-folder-open.icon-list
+                    p.mb-0 Casos de éxito.
+                
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/t4/8.svg', alt='')
         .col-sm-12.col-lg-5
@@ -88,7 +107,7 @@
         .col-sm-12.col-lg-4.d-none.d-lg-block.mx-0.px-0
           img(src='@/assets/curso/temas/t4/11.svg', alt='')
         .col-sm-12.col-lg-8.bg-color-2.p-4.mx-0
-            p.mb-3.mg-cus-5 Ejemplo en contexto de formación profesional: un artículo titulado “cómo registrar una empresa de tecnología en Colombia” puede pertenecer a la categoría “Legalidad”. Sin embargo, puede incluir etiquetas como “software”, “Cámara de comercio” y “Emprendimiento digital”. Si un usuario selecciona la etiqueta “software”, el sistema mostrará este contenido junto con otros relacionados, aunque pertenezcan a diferentes categorías.
+            p.mb-3.mg-cus-5 Ejemplo en contexto de formación profesional: un artículo titulado “cómo registrar una empresa de tecnología en Colombia” puede pertenecer a la categoría “Legalidad”. Sin embargo, puede incluir etiquetas como “#[i software]”, “Cámara de comercio” y “Emprendimiento digital”. Si un usuario selecciona la etiqueta “#[i software]”, el sistema mostrará este contenido junto con otros relacionados, aunque pertenezcan a diferentes categorías.
             p.mb-0 De esta manera, las etiquetas permiten crear conexiones entre contenidos y facilitar rutas de navegación más dinámicas, contribuyendo a una mejor organización de la información y a una experiencia de usuario más clara y eficiente.
 
 

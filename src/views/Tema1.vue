@@ -42,8 +42,8 @@
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/4.svg', alt='')
             .col-sm-12.col-lg-10
-                p.mb-0  Por ejemplo: un estudiante del programa de gastronomía del SENA que desee crear una plataforma para ofrecer servicios de banquetes puede centrarse en estructurar secciones como menús, galerías, testimonios y formularios de cotización, utilizando módulos preconstruidos (plugins), en lugar de invertir tiempo en programar cada funcionalidad desde cero. Esto facilita la transformación de las necesidades del usuario final en soluciones digitales funcionales, eficientes y coherentes.
-          p.mb-0 WordPress ofrece una arquitectura modular que permite ampliar las funcionalidades de un sitio web mediante plugins y plantillas, adaptándose a los requerimientos específicos de cada proyecto. Esta flexibilidad posibilita la creación de sitios escalables, desde blogs personales hasta plataformas corporativas, sin comprometer la seguridad ni la estabilidad del sistema.
+                p.mb-0  Por ejemplo: un estudiante del programa de gastronomía del SENA que desee crear una plataforma para ofrecer servicios de banquetes puede centrarse en estructurar secciones como menús, galerías, testimonios y formularios de cotización, utilizando módulos preconstruidos (#[i plugins]), en lugar de invertir tiempo en programar cada funcionalidad desde cero. Esto facilita la transformación de las necesidades del usuario final en soluciones digitales funcionales, eficientes y coherentes.
+          p.mb-0 WordPress ofrece una arquitectura modular que permite ampliar las funcionalidades de un sitio web mediante #[i plugins] y plantillas, adaptándose a los requerimientos específicos de cada proyecto. Esta flexibilidad posibilita la creación de sitios escalables, desde blogs personales hasta plataformas corporativas, sin comprometer la seguridad ni la estabilidad del sistema.
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/5.png', alt='')
 
@@ -97,15 +97,15 @@
             tr
               td.fw-bold Naturaleza de la plataforma
               td Corresponde al #[i software] libre, gratuito y de código abierto de WordPress, disponible para descarga desde el sitio oficial.
-              td Corresponde a un servicio comercial de alojamiento y publicación de sitios web, ofrecido por la empresa automattic, a partir del #[i software] WordPress.
+              td Corresponde a un servicio comercial de alojamiento y publicación de sitios web, ofrecido por la empresa Automattic, a partir del #[i software] WordPress.
             tr
               td.fw-bold Modalidad de uso
               td Se implementa bajo un modelo auto alojado, por lo que la persona usuaria o la institución asume la instalación y administración del sistema.
               td Opera bajo un modelo de servicio administrado, en el cual la plataforma ofrece una solución integrada para crear y publicar contenidos sin instalación previa.
             tr
               td.fw-bold Requerimientos de implementación
-              td Exige la contratación independiente de un servicio de hosting y de un dominio propio.
-              td No requiere la búsqueda ni contratación inicial de hosting, dado que este componente está integrado en el servicio.
+              td Exige la contratación independiente de un servicio de #[i hosting] y de un dominio propio.
+              td No requiere la búsqueda ni contratación inicial de #[i hosting], dado que este componente está integrado en el servicio.
             tr
               td.fw-bold Instalación del sistema
               td Requiere descargar e instalar el #[i software] en el entorno de alojamiento seleccionado.

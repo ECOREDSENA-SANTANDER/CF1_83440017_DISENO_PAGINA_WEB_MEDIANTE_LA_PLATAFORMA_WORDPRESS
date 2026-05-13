@@ -31,7 +31,7 @@
       //------------------------------------------------------------------
       Separador
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-        h2 2.1 Instalación automática en servicios de alojamiento web (hosting)
+        h2 2.1 Instalación automática en servicios de alojamiento web (#[i hosting])
       
 
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.pd-cus-1.mb-5(data-aos='fade-right')
@@ -109,7 +109,7 @@
       p.mb-5(data-aos='fade-right') Comparación visual del recorrido de una solicitud en línea frente a una arquitectura aislada en #[i localhost].
       .titulo-sexto.color-acento-contenido.mb-3(data-aos='fade-right')
         h5 Figura 1. 
-        span Diagrama de flujo: servidor web remoto vs. Servidor local  
+        span Diagrama de flujo: servidor web remoto vs. servidor local  
       .row.justify-content-center.align-items-center.mb-5.bg-color-3.br-1(data-aos='fade-right')
        .col-sm-12.col-lg-10.mb-cus
           figure.mb-0
