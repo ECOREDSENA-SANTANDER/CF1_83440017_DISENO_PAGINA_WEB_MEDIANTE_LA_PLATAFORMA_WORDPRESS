@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84">
+  <g id="Grupo_1182666" data-name="Grupo 1182666" transform="translate(-706 -5584.61)">
+    <g id="Grupo_1182626" data-name="Grupo 1182626" transform="translate(-28.244)">
+      <rect id="Rectángulo_402006" data-name="Rectángulo 402006" width="84" height="84" rx="5" transform="translate(734.244 5584.61)" fill="#b0a3c8"/>
+      <g id="Icon" transform="translate(749.524 5600.651)">
+        <g id="_63" data-name="63" transform="translate(-0.127 -0.127)">
+          <rect id="Background" width="52" height="52" rx="9" transform="translate(52.476 52.476) rotate(180)" fill="#2c455f"/>
+          <path id="Trazado_1004411" data-name="Trazado 1004411" d="M88.757,141h22.676a2.577,2.577,0,0,1,0,5.154H88.757a2.577,2.577,0,1,1,0-5.154Zm0,14.43h12.369a2.577,2.577,0,1,0,0-5.154H88.757a2.577,2.577,0,1,0,0,5.154Zm0,9.277h22.676a2.577,2.577,0,1,0,0-5.154H88.757a2.577,2.577,0,1,0,0,5.154Z" transform="translate(-77.209 -126.378)" fill="#c5def8"/>
+          <path id="Trazado_1004412" data-name="Trazado 1004412" d="M335.185,191.9l-3.353-3.353,3.353-3.353a2.577,2.577,0,1,0-3.645-3.645l-5.175,5.175a2.578,2.578,0,0,0,0,3.645l5.175,5.175a2.577,2.577,0,1,0,3.645-3.645Z" transform="translate(-291.959 -162.067)" fill="#6faded"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
